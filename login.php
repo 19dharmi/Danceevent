@@ -2,7 +2,7 @@
     $login = false;
     $error = false;
     if($_SERVER['REQUEST_METHOD']=='POST'){
-        include 'partials/db_connect.php';
+        include 'db_connect.php';
         $username = $_POST['username'];
         $password = $_POST['password'];
         
@@ -37,7 +37,7 @@
 </head>
 
 <body>
-    <?php require 'partials/_nav.php'; ?> 
+    <?php require '_nav.php'; ?> 
     <?php
     if($login){
     echo'

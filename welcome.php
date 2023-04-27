@@ -43,7 +43,7 @@ h1{
 </head>
 
 <body background="https://img.freepik.com/free-vector/party-people-dancing-bokeh-lights-background_1048-17647.jpg">
-    <?php require 'partials/_nav.php'; ?> 
+    <?php require '_nav.php'; ?> 
     <h1>Event registration will be close in...</h1>
     <p id="demo"></p>
 

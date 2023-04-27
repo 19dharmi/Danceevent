@@ -11,7 +11,7 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <?php require 'partials/_nav.php' ?>
+    <?php require '_nav.php' ?>
     <?php   
     session_start();
 
