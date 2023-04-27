@@ -75,9 +75,9 @@ var x = setInterval(function() {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
-}, 1000);
+}, 1000s);
 </script>
-<button type="submit" class="btn">resitration</button>
+<button type="submit" class="btn" ><a href="signup.php">resitration</a></button>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
